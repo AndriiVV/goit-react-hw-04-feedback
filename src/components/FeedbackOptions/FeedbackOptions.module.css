@@ -1,0 +1,26 @@
+.button {
+	width: 80px;
+	height: 30px;
+	margin: 5px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: darkslategray;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid grey;
+	box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.24);
+	cursor: pointer;
+	outline: none;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	background-color: whitesmoke;
+}
+
+.button:active {
+	transform: scale(0.98);
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.24);
+}
